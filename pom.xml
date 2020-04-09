@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.hpsworldwide.powercard</groupId>
+  <artifactId>pwc-otp</artifactId>
+  <version>1.0.1</version>
+  <packaging>pom</packaging>
+  <name>PowerCARD OTP parent</name>
+  <url>https://www.hps-worldwide.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.8</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+	<global.version>1.0.1</global.version>
+  </properties>
+  
+  <modules>
+    <module>pwc-otp-lib</module>
+    <module>pwc-otp-webapp</module>
+  </modules>
+
+</project>
