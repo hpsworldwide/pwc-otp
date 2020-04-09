@@ -1,4 +1,4 @@
-![logo](https://www.hps-worldwide.com/sites/default/files/logo_full_white.png)
+![logo](https://www.hps-worldwide.com/sites/default/files/logo_hps_0.png)
 
 # PowerCARD OTP
 
