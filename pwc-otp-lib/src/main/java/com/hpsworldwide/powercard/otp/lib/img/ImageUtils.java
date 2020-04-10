@@ -140,8 +140,6 @@ public class ImageUtils {
      * @param comment may be null
      */
     public static void toJPEG(RenderedImage image, Float compressionQuality, String comment, OutputStream outputStream) throws IOException {
-        // List imagewriters = IteratorUtils.toList(ImageIO.getImageWritersByFormatName(JPEG_IMAGE_FORMAT_NAME)); 
-        // System.out.println("imagewriters: " + imagewriters);
         ImageWriter writer = ImageIO.getImageWritersByFormatName(JPEG_IMAGE_FORMAT_NAME).next();
         ImageWriteParam writeParam = writer.getDefaultWriteParam();
         // System.out.println("getCompressionQualityDescriptions: " + Arrays.toString(writeParam.getCompressionQualityDescriptions()));
