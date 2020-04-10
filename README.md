@@ -2,6 +2,13 @@
 
 # PowerCARD OTP
 
+### Getting started
+```
+> git clone https://github.com/hpsworldwide/pwc-otp.git
+> cd pwc-otp
+> mvn package
+```
+
 ### Multi-factor Authentication (MFA)
 Time-based One-time Password (TOTP)
 
